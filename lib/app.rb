@@ -28,8 +28,5 @@ end
 
 def perform
   hash_final = Hash[get_the_name(get_the_page).zip(get_the_prices(get_the_page))]
-  puts hash_final
+  return hash_final
 end
-
-perform
-#h = Hash[a.zip b]
